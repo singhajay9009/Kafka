@@ -1,4 +1,4 @@
-package domain;
+package com.example.kafka.producer.domain;
 
 
 import lombok.AllArgsConstructor;
