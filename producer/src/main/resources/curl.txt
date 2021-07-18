@@ -1,0 +1,14 @@
+
+// without event type
+curl -i \
+-d '{"libraryEventId":null,"book":{"bookId":456,"bookName":"Kafka Using Spring Boot","bookAuthor":"Dilip"}}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8080/v1/libraryevent
+
+
+// with event type
+curl -i \
+-d '{"libraryEventId":null,"book":{"bookId":1001,"bookName":"Life after Death","bookAuthor":"James Rolling"},"libraryEventType":"NEW"}}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8080/v1/libraryevent
+
