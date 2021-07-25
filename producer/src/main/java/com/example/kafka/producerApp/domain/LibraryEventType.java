@@ -1,4 +1,4 @@
-package com.example.kafka.producer.domain;
+package com.example.kafka.producerApp.domain;
 
 public enum LibraryEventType {
     NEW,

@@ -1,8 +1,8 @@
-package com.example.kafka.producer.controller;
+package com.example.kafka.producerApp.controller;
 
-import com.example.kafka.producer.domain.Book;
-import com.example.kafka.producer.domain.LibraryEvent;
-import com.example.kafka.producer.domain.LibraryEventType;
+import com.example.kafka.producerApp.domain.Book;
+import com.example.kafka.producerApp.domain.LibraryEvent;
+import com.example.kafka.producerApp.domain.LibraryEventType;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.IntegerDeserializer;

@@ -1,15 +1,14 @@
-package com.example.kafka.producer.controller;
+package com.example.kafka.producerApp.controller;
 
 
-import com.example.kafka.producer.domain.LibraryEvent;
-import com.example.kafka.producer.domain.LibraryEventType;
-import com.example.kafka.producer.producer.LibraryEventProducer;
+import com.example.kafka.producerApp.domain.LibraryEvent;
+import com.example.kafka.producerApp.domain.LibraryEventType;
+import com.example.kafka.producerApp.producer.LibraryEventProducer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.kafka.support.SendResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
